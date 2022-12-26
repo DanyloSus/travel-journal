@@ -24,8 +24,10 @@ body {
 }
 
 .item {
-    margin: 55px 40px;
+    margin: 35px 40px;
     display: flex;
+    border-bottom: 1px rgb(211, 211, 211) solid;
+    padding: 20px 0px;
 }
 
 .item--img {
