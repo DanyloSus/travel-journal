@@ -4,3 +4,16 @@ body {
     margin: 0;
     font-family: "Inter";
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #F55A5A;
+    color: #fff;
+}
+
+.header--h3 {
+    margin-left: 5px;
+}
