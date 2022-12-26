@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Karla:wght@400;700&display=swap');
 
+* {
+    margin: 0;
+}
+
 body {
     margin: 0;
     font-family: "Inter";
@@ -12,8 +16,47 @@ body {
     width: 100%;
     background-color: #F55A5A;
     color: #fff;
+    height: 55px;
 }
 
 .header--h3 {
     margin-left: 5px;
+}
+
+.item {
+    margin: 55px 40px;
+    display: flex;
+}
+
+.item--img {
+    width: 125px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.item--text {
+    margin-left: 19px;
+}
+
+.item--text--p1 {
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+.item--text--p1 > h5 {
+    margin: 0 3px;
+}
+.item--text--p1 > a {
+    color: gray;
+    font-size: 11px;
+    margin-left: 7px;
+}
+
+.item--text--p2 {
+    margin-top: 10px;
+}
+
+.item--text--date {
+    margin-top: 15px;
 }
